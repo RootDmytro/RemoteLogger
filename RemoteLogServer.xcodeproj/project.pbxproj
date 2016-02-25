@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C031B2A1C733DAB001764B4 /* sockets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B271C733DAB001764B4 /* sockets.m */; };
+		5C031B2B1C733DAB001764B4 /* errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B291C733DAB001764B4 /* errors.m */; };
+		5CF39F341C74A815004DB892 /* perform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF39F331C74A815004DB892 /* perform.m */; };
+		5CFEB7A71C720312006E3F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEB7A61C720312006E3F2A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CFEB7A11C720312006E3F2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C031B261C733DAB001764B4 /* sockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sockets.h; sourceTree = "<group>"; };
+		5C031B271C733DAB001764B4 /* sockets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sockets.m; sourceTree = "<group>"; };
+		5C031B281C733DAB001764B4 /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		5C031B291C733DAB001764B4 /* errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = errors.m; sourceTree = "<group>"; };
+		5CF39F321C74A815004DB892 /* perform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perform.h; sourceTree = "<group>"; };
+		5CF39F331C74A815004DB892 /* perform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = perform.m; sourceTree = "<group>"; };
+		5CFEB7A31C720312006E3F2A /* RemoteLogServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoteLogServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFEB7A61C720312006E3F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFEB7A01C720312006E3F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFEB79A1C720312006E3F2A = {
+			isa = PBXGroup;
+			children = (
+				5CFEB7A51C720312006E3F2A /* RemoteLogServer */,
+				5CFEB7A41C720312006E3F2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CFEB7A41C720312006E3F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CFEB7A31C720312006E3F2A /* RemoteLogServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFEB7A51C720312006E3F2A /* RemoteLogServer */ = {
+			isa = PBXGroup;
+			children = (
+				5CFEB7A61C720312006E3F2A /* main.m */,
+				5C031B261C733DAB001764B4 /* sockets.h */,
+				5C031B271C733DAB001764B4 /* sockets.m */,
+				5C031B281C733DAB001764B4 /* errors.h */,
+				5C031B291C733DAB001764B4 /* errors.m */,
+				5CF39F321C74A815004DB892 /* perform.h */,
+				5CF39F331C74A815004DB892 /* perform.m */,
+			);
+			path = RemoteLogServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CFEB7A21C720312006E3F2A /* RemoteLogServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFEB7AA1C720312006E3F2A /* Build configuration list for PBXNativeTarget "RemoteLogServer" */;
+			buildPhases = (
+				5CFEB79F1C720312006E3F2A /* Sources */,
+				5CFEB7A01C720312006E3F2A /* Frameworks */,
+				5CFEB7A11C720312006E3F2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteLogServer;
+			productName = RemoteLogServer;
+			productReference = 5CFEB7A31C720312006E3F2A /* RemoteLogServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CFEB79B1C720312006E3F2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rocket Route";
+				TargetAttributes = {
+					5CFEB7A21C720312006E3F2A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CFEB79E1C720312006E3F2A /* Build configuration list for PBXProject "RemoteLogServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CFEB79A1C720312006E3F2A;
+			productRefGroup = 5CFEB7A41C720312006E3F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFEB7A21C720312006E3F2A /* RemoteLogServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFEB79F1C720312006E3F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C031B2B1C733DAB001764B4 /* errors.m in Sources */,
+				5C031B2A1C733DAB001764B4 /* sockets.m in Sources */,
+				5CFEB7A71C720312006E3F2A /* main.m in Sources */,
+				5CF39F341C74A815004DB892 /* perform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CFEB7A81C720312006E3F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CFEB7A91C720312006E3F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CFEB7AB1C720312006E3F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CFEB7AC1C720312006E3F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CFEB79E1C720312006E3F2A /* Build configuration list for PBXProject "RemoteLogServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFEB7A81C720312006E3F2A /* Debug */,
+				5CFEB7A91C720312006E3F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFEB7AA1C720312006E3F2A /* Build configuration list for PBXNativeTarget "RemoteLogServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFEB7AB1C720312006E3F2A /* Debug */,
+				5CFEB7AC1C720312006E3F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CFEB79B1C720312006E3F2A /* Project object */;
+}

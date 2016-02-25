@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C031B491C734433001764B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B481C734433001764B4 /* main.m */; };
+		5C031B4C1C734433001764B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B4B1C734433001764B4 /* AppDelegate.m */; };
+		5C031B4F1C734433001764B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B4E1C734433001764B4 /* ViewController.m */; };
+		5C031B521C734433001764B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C031B501C734433001764B4 /* Main.storyboard */; };
+		5C031B541C734433001764B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C031B531C734433001764B4 /* Assets.xcassets */; };
+		5C031B571C734433001764B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C031B551C734433001764B4 /* LaunchScreen.storyboard */; };
+		5C031B621C7347E1001764B4 /* errors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B5F1C7347E1001764B4 /* errors.m */; };
+		5C031B631C7347E1001764B4 /* sockets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031B611C7347E1001764B4 /* sockets.m */; };
+		5CF39F3C1C74DA94004DB892 /* perform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF39F3B1C74DA94004DB892 /* perform.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C031B441C734433001764B4 /* RemoteLogClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteLogClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C031B481C734433001764B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C031B4A1C734433001764B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C031B4B1C734433001764B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C031B4D1C734433001764B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C031B4E1C734433001764B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C031B511C734433001764B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C031B531C734433001764B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C031B561C734433001764B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C031B581C734433001764B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C031B5E1C7347E1001764B4 /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errors.h; path = RemoteLogServer/errors.h; sourceTree = SOURCE_ROOT; };
+		5C031B5F1C7347E1001764B4 /* errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = errors.m; path = RemoteLogServer/errors.m; sourceTree = SOURCE_ROOT; };
+		5C031B601C7347E1001764B4 /* sockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sockets.h; path = RemoteLogServer/sockets.h; sourceTree = SOURCE_ROOT; };
+		5C031B611C7347E1001764B4 /* sockets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sockets.m; path = RemoteLogServer/sockets.m; sourceTree = SOURCE_ROOT; };
+		5CF39F3A1C74DA94004DB892 /* perform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = perform.h; path = RemoteLogServer/perform.h; sourceTree = SOURCE_ROOT; };
+		5CF39F3B1C74DA94004DB892 /* perform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = perform.m; path = RemoteLogServer/perform.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C031B411C734433001764B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C031B3B1C734433001764B4 = {
+			isa = PBXGroup;
+			children = (
+				5C031B461C734433001764B4 /* RemoteLogClient */,
+				5C031B451C734433001764B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C031B451C734433001764B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C031B441C734433001764B4 /* RemoteLogClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C031B461C734433001764B4 /* RemoteLogClient */ = {
+			isa = PBXGroup;
+			children = (
+				5C031B641C7347E7001764B4 /* RemoteLogServerStd */,
+				5C031B4A1C734433001764B4 /* AppDelegate.h */,
+				5C031B4B1C734433001764B4 /* AppDelegate.m */,
+				5C031B4D1C734433001764B4 /* ViewController.h */,
+				5C031B4E1C734433001764B4 /* ViewController.m */,
+				5C031B501C734433001764B4 /* Main.storyboard */,
+				5C031B531C734433001764B4 /* Assets.xcassets */,
+				5C031B551C734433001764B4 /* LaunchScreen.storyboard */,
+				5C031B581C734433001764B4 /* Info.plist */,
+				5C031B471C734433001764B4 /* Supporting Files */,
+			);
+			path = RemoteLogClient;
+			sourceTree = "<group>";
+		};
+		5C031B471C734433001764B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C031B481C734433001764B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C031B641C7347E7001764B4 /* RemoteLogServerStd */ = {
+			isa = PBXGroup;
+			children = (
+				5C031B601C7347E1001764B4 /* sockets.h */,
+				5C031B611C7347E1001764B4 /* sockets.m */,
+				5C031B5E1C7347E1001764B4 /* errors.h */,
+				5C031B5F1C7347E1001764B4 /* errors.m */,
+				5CF39F3A1C74DA94004DB892 /* perform.h */,
+				5CF39F3B1C74DA94004DB892 /* perform.m */,
+			);
+			name = RemoteLogServerStd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C031B431C734433001764B4 /* RemoteLogClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C031B5B1C734433001764B4 /* Build configuration list for PBXNativeTarget "RemoteLogClient" */;
+			buildPhases = (
+				5C031B401C734433001764B4 /* Sources */,
+				5C031B411C734433001764B4 /* Frameworks */,
+				5C031B421C734433001764B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteLogClient;
+			productName = RemoteLogClient;
+			productReference = 5C031B441C734433001764B4 /* RemoteLogClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C031B3C1C734433001764B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rocket Route";
+				TargetAttributes = {
+					5C031B431C734433001764B4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C031B3F1C734433001764B4 /* Build configuration list for PBXProject "RemoteLogClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C031B3B1C734433001764B4;
+			productRefGroup = 5C031B451C734433001764B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C031B431C734433001764B4 /* RemoteLogClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C031B421C734433001764B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C031B571C734433001764B4 /* LaunchScreen.storyboard in Resources */,
+				5C031B541C734433001764B4 /* Assets.xcassets in Resources */,
+				5C031B521C734433001764B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C031B401C734433001764B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C031B621C7347E1001764B4 /* errors.m in Sources */,
+				5C031B4F1C734433001764B4 /* ViewController.m in Sources */,
+				5C031B631C7347E1001764B4 /* sockets.m in Sources */,
+				5C031B4C1C734433001764B4 /* AppDelegate.m in Sources */,
+				5C031B491C734433001764B4 /* main.m in Sources */,
+				5CF39F3C1C74DA94004DB892 /* perform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C031B501C734433001764B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C031B511C734433001764B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C031B551C734433001764B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C031B561C734433001764B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C031B591C734433001764B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C031B5A1C734433001764B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C031B5C1C734433001764B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RemoteLogClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C031B5D1C734433001764B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RemoteLogClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C031B3F1C734433001764B4 /* Build configuration list for PBXProject "RemoteLogClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C031B591C734433001764B4 /* Debug */,
+				5C031B5A1C734433001764B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C031B5B1C734433001764B4 /* Build configuration list for PBXNativeTarget "RemoteLogClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C031B5C1C734433001764B4 /* Debug */,
+				5C031B5D1C734433001764B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C031B3C1C734433001764B4 /* Project object */;
+}
